@@ -1,0 +1,81 @@
+html{
+    background-color: #FEFFEF;
+}
+
+#main{
+    padding-top: 100px;
+    background-color: #FEFFEF;
+}
+
+#geral{
+    width: 600px;
+    background-color: #52B8BC;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    min-height: 200px;
+}
+
+#geral h1{
+    font-family: monospace;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#geral p{
+    color: white;
+    font-family: monospace;
+}
+
+#input-tarefa{
+    width: 65%;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#botao{
+    font-size: 16px;
+    font-family: monospace;
+    width: 25%;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #003638;
+    color: white;
+    border: none;
+}
+
+#botao:hover{
+    background-color: #055053;
+    cursor: pointer;
+}
+
+#botao:active{
+    background-color: #055053;
+}
+
+#tarefas {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#check-main{
+    background-color: #FEFFEF;
+    border-color: #003638;
+    box-shadow: none;
+}
+
+#check-main:checked{
+    background-color: #003638;
+    box-shadow: none;
+}
